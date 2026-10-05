@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The AuraMax Clicker</title>
+
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <button class="button" id="bigcookie">
+        <h1>CLICK THE PHONK</h1>
+        <img src="./bigcookie.jpg">
+    </button>
+
+    <div class="upgrades">
+
+    </div>
+
+    <div id="musicPlayer">
+        <img class="button" src="./musicdisp.webp" width="256px">
+
+        <label for="volumeSlider">Volume:</label>
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+
+        <button class="button" id="play" onclick="playPhonk()">
+            <h1 style="font-size: 42px;">▶/⏸</h1>
+        </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+body {
+    background-color: #111;
+
+    margin: 15px;
+}
+
+.button {
+    transition: scale 0.2s ease-in-out;
+}
+
+.button:hover {
+    animation-duration: 100ms;
+    scale: 1.025;
+}
+
+#musicPlayer {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+    display: grid;
+    background-color: bisque;
+    width: 360px;
+    height: 512px;
+    align-items: center;
+    justify-content: center;
+
+    border: 5px solid #555555;
+    border-radius: 5px;
+    
+}
+
+#bigcookie {
+    cursor: pointer;
+}
+#play {
+    cursor: pointer;
+}
